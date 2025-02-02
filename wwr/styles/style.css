@@ -4,7 +4,7 @@ div #content{
 }
 nav a{
     text-align: center;
-    color:blueviolet
+    color:blue;
 }
 #hero-msg h1{
     text-align: center;
@@ -34,13 +34,34 @@ nav a:hover {
 }
 .book, .join {
     background-color: #fcfbfb;
+    color:blue;
 }
 .book:hover, .join:hover{
     background-color: blueviolet;
+    color: aquamarine;
 }
 .msg{
     background-color: gray;
 }
 footer{
     background-color: gray;
+    color:black;
+}
+.home-title{
+    color: blue;
+}
+h4{
+    color: black;
+}
+.msg h2{
+    color: black;
+}
+.msg p{
+    color: black;
+}
+footer a{
+    color:blue
+}
+footer a:hover{
+    color: blueviolet;
 }
