@@ -19,13 +19,26 @@ main section{
 }
 #background {
     height: 725px;
+    background-color: aquamarine;
 }
 body {
     background-color: #fcfbfb;
 }
 header {
-    background-color: rgba(20,30,13, .7);
+    background-color: gray;
 }
 nav a:hover {
     background-color: black;
+}
+.book, .join {
+    background-color: blue;
+}
+.book:hover, .join:hover{
+    background-color: blueviolet;
+}
+.msg{
+    background-color: black;
+}
+footer{
+    background-color: gray;
 }
