@@ -31,13 +31,13 @@ nav a:hover {
     background-color: black;
 }
 .book, .join {
-    background-color: blue;
+    background-color: #fcfbfb;
 }
 .book:hover, .join:hover{
     background-color: blueviolet;
 }
 .msg{
-    background-color: black;
+    background-color: gray;
 }
 footer{
     background-color: gray;
