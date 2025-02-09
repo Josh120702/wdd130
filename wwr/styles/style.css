@@ -8,7 +8,7 @@ div #content{
 }
 nav a{
     text-align: center;
-    color:blue;
+    color:#050505;
     text-decoration: none;
     padding: 35px;
 }
@@ -91,11 +91,11 @@ h4{
     padding-bottom: 15px;
 }
 footer a{
-    color:blue;
+    color:#050505;
     text-decoration: none;
 }
 footer a:hover{
-    color: blueviolet;
+    color: blue;
 }
 .icon {
     width:80px;
