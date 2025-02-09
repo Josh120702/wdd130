@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
 div #content{
     max-width: 1600px;
     margin: 0 auto;
 }
 .home-title{
-    font-family: 'Times New Roman', Arial, serif;
+    font-family: 'Rock Salt', Arial, sans-serif;
     font-size: 2em;
 }
 nav a{
