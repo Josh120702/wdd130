@@ -85,7 +85,7 @@ nav a:hover {
 .rivers-card, .camping-card, .rapids-card{
     margin: 200px 0;
 }
-main{
+.home-grid{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
 }
@@ -183,6 +183,52 @@ footer p a:hover{
 }
 footer .social img{
     padding-top: 15px;
+}
+.rivers-grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 1fr, 1fr, 1fr;
+}
+.rivers1{
+    grid-column: 1/5;
+    grid-row: 2;
+    float: left;
+    width: 100%;
+    padding: 1em;
+}
+.rivers2{
+    grid-column: 1/5;
+    grid-row: 3;
+    float: left;
+    width: 100%;
+    padding: 1em;
+
+}
+h3{
+    text-align: center;
+    font-family: 'Rock Salt', Arial, sans-serif;
+    font-size: 2em;
+    grid-row: 1;
+    grid-column: 1/10;
+    color: aqua;
+}
+.text1{
+    width: 500px;
+    grid-column: 6/10;
+    grid-row: 2;
+}
+h4{
+    text-align: center;
+    font-family: 'Rock Salt', Arial, sans-serif;
+    font-size: 2em;
+    grid-row: 3;
+    grid-column: 5/10;
+    color: aqua;
+}
+.text2{
+    width: 500px;
+    grid-column: 6/10;
+    grid-row: 3;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
