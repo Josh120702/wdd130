@@ -266,6 +266,7 @@ body {
     box-sizing: border-box;
     /* Match form field borders */
     border: 1px solid #999;
+    padding: 10px;
   }
   
   input:focus,
