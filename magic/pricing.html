@@ -4,50 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TCG Proxies</title>
+    <link rel="stylesheet" href="styles/magic.css">
 </head>
 <body>
     <header>
-        <a id="logo_link" href="index.html"></a>
+        <a id="logo_link" href="index.html">
         <img class="logo" src="image\tcglogo.png">
+        </a>
         <nav>
             <a href="index.html">Home</a>
             <a href="pricing.html">Pricing</a>
             <a href="contactus2.html">Contact Us</a>
         </nav>
     </header>
-    <main>
+    <main class="grid2">
         <section class="price1">
-            <p>Single card. $02.00 a card.  That one card that you need.</p>
+            <img class="cardblue" src="image\cardimage4.png" >
+            <h1>Single card. $02.00 a card.  That one card that you need.</h1>
         </section>
         <section class="price2">
-            <p>10 cards and up. $01.50 a card. Your decks need upgrades.</p>
+            <img class="imagecard" src="image\Untitled design.png">
+            <h2>10 cards and up. $01.50 a card. Your decks need upgrades.</h2>
         </section>
         <section class="price3">
-            <p>50 cards and up. $00.65 a card. Play test an entire deck.</p>
+           <img class="deck1" src="image\deck.png">
+            <h3>50 cards and up. $00.65 a card. Play test an entire deck.</h3>
         </section>
         <div id="order"></div>
-        <p>Order your cards here inclued the name, set, and version</p>
+        <section class="yourorder">
+        <h4>Order your cards here inclued the name, set  code, and version</h4>
         <form action="#">
             <p>
-                <label for="msg">Order</label>
-          <textarea id="msg" name="user_message"></textarea>
+                <label for="msg">Order:</label>
+          <textarea id="msg" name="user_order"></textarea>
             </p>
             <p class="button">
                 <button type="submit">Order</button>
             </p>
         </form>
+        </section>
     </main>
     <footer>
         <p><a href="contactus2.html">Contact Us</a></p>
         <div class="social">
             <a href="https://facebook.com"target="_blank">
-                <img src="images/facebook.png" alt="fb icon">
+                <img src="image/facebook.png" alt="fb icon">
             </a>
             <a href="https://twitter.com"target="_blank">
-                <img src="images/twitter.png" alt="twitter icon">
+                <img src="image/twitter.png" alt="twitter icon">
             </a>
             <a href="https://instagram.com"target="_blank">
-                <img src="images/instagram.png" alt="instagram icon">
+                <img src="image/instagram.png" alt="instagram icon">
             </a>
         </div>
     </footer>
