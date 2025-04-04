@@ -143,6 +143,13 @@ nav a:hover{
         border: 1px solid #999;
         padding: 10px;
 }
+body{
+    text-align: center;
+    justify-content: center;
+}
+#feedback{
+    background-color:  #21bc7b;
+}
 footer{
     background-color: #393D3F;
     padding: 25px 50px;
